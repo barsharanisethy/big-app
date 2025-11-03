@@ -1,0 +1,52 @@
+:root {
+  /* Light mode variables */
+  --primary-color: #2563eb;
+  --secondary-color: #4338ca;
+  --text-color: #1f2937;
+  --bg-color: #ffffff;
+  --input-bg: #f3f4f6;
+  --border-color: #e5e7eb;
+  --error-color: #dc2626;
+  --success-color: #059669;
+  --card-bg: #ffffff;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+
+  /* Responsive spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Responsive typography */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+
+  /* Container widths */
+  --container-max-width: 1280px;
+  --container-padding: 1rem;
+
+  /* Border radius */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-radius-full: 9999px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #3b82f6;
+    --secondary-color: #4f46e5;
+    --text-color: #f3f4f6;
+    --bg-color: #111827;
+    --input-bg: #1f2937;
+    --border-color: #374151;
+    --error-color: #ef4444;
+    --success-color: #10b981;
+    --card-bg: #1f2937;
+    --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+  }
+}
